@@ -7,21 +7,41 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+  <!-- Body Starts Here -->
   <body>
-    <nav class="menu">
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">PROJECTS</a></li>
-        <li><a href="#">BLOGS</a></li>
-      </ul>
-    </nav>
-    <div class="title-block">
-      <h1>Understanding the World</h1>
-      <h2>
-        CHERYL<br />
-        <span>LEE</span>
-      </h2>
-      <h1>Through Data Visualisation</h1>
+    <!-- Hero Section------ -->
+
+    <div id="hero">
+      <canvas id="hero-canvas"> </canvas>
+      <!-- Navigation Menu -->
+      <nav class="menu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">PROJECTS</a></li>
+          <li><a href="#">BLOGS</a></li>
+        </ul>
+      </nav>
+
+      <!-- Title Section -->
+      <div class="title-block">
+        <h1 class="left">Understanding the World</h1>
+
+        <h2>
+          CHERYL<br />
+          <span>LEE</span>
+        </h2>
+
+        <h1 class="right">Through Data Visualisation</h1>
+      </div>
+      <!-- Title Section Ends -->
+      <!-- Button for Projects -->
+      <div class="button-wrap">
+        <hr class="short-divider" />
+        <button>Explore the World With Me</button>
+      </div>
     </div>
+    <!-- Hero Section Ends -->
+
+    <script src="script.js"></script>
   </body>
 </html>
