@@ -73,6 +73,7 @@ body {
 /* Navigation menu----------------- */
 .menu {
   width: 100%;
+  position: relative;
   display: flex;
   padding: 0;
   font-family: "Host Grotesk", sans-serif;
